@@ -20,14 +20,17 @@
 	<title>AllKhmerDocs</title>
 </head>
 <body>
-<header>
+<header id="header">
 <!-- top menu -->
-	<nav class="navbar navbar-inverse navbar-fixed-top navbar-bg">
-		<span  class="navbar-logo">
-				<a href="#" class="navbar-brand brand-logo">AllKhmerDocs</a>
-		</span>
-	</nav>
+	<div class="top-menu">
+		<nav class="navbar navbar-inverse navbar-fixed-top navbar-bg">
+			<span  class="navbar-logo">
+					<a href="#" class="navbar-brand brand-logo">AllKhmerDocs</a>
+			</span>
+		</nav>
+	</div>
 <!-- main menu -->
+<div class="main-menu-contain">
 <nav class="navbar navbar-default navbar-sticky navbar-main-menu">
 	<div class="container">
 		<div class="main-menu">
@@ -59,12 +62,14 @@
 		</div>
 	</div>
 </nav>
+</div>
 </header>
+
+<!-- //////////////////////////////////////////////////////// -->
 <content>
 	<div class="container">
 	  <section id="technology">
 		<!-- section-title -->
-			<div class="topspace"></div>
 			<div class="row section technology topspace-second">
 				<div class="section-title">
 				  <span​ class="col-xs-12 col-lg-12" id="left-title">
@@ -705,7 +710,9 @@
 </div>
 		<!-- end container-->
 </content>
-
+<footer>	
+	<p>Copy Right@</p>
+</footer>
 <script src="js/allkhmerslide.js"></script>
 </body>
 </html>
