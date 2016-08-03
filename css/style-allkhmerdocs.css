@@ -40,6 +40,7 @@ html,body {
 }
 .navbar-main-menu{
 position: relative;
+z-index: 300;
   background-color: #3B5998;
   border-width: 1px 0;
   -webkit-border-radius: 0;
@@ -80,7 +81,12 @@ ul.menu-basic li a{
 }
 
 /* Change background color of links on hover */
-ul.menu-basic li a:hover{background-color:#fff;color:#424242;}
+ul.menu-basic li a:hover{
+  background-color:#fff;
+  color:#424242;
+  border-top-left-radius:15px;
+      border-bottom-right-radius:15px; 
+}
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.menu-basic li.icon {display: none;}
 /*///////////////////////////////////////////////*/
