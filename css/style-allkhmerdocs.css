@@ -40,7 +40,7 @@ html,body {
 }
 .navbar-main-menu{
 position: relative;
-z-index: 300;
+  z-index: 300;
   background-color: #3B5998;
   border-width: 1px 0;
   -webkit-border-radius: 0;
@@ -64,7 +64,7 @@ z-index: 300;
  /* Float the list items side by side */
  .main-menu{
  	position: relative;
- 	margin-left: 300px;
+ 	margin-left: 200px;
 
  }
 ul.menu-basic li{float: left;}
@@ -84,8 +84,6 @@ ul.menu-basic li a{
 ul.menu-basic li a:hover{
   background-color:#fff;
   color:#424242;
-  border-top-left-radius:15px;
-      border-bottom-right-radius:15px; 
 }
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.menu-basic li.icon {display: none;}
@@ -280,12 +278,22 @@ a .fa-thumbs-up:hover{
   font-size: 20px;
  margin:0 0.4em; 
 }
-
+.fa{
+  margin-right: 5px;
+}
 i.fa-bars{
   position: relative;
-  top: 13px;
+  top: 10px;
   font-size: 25px;
   color: white;
 }
 
+.navbar.stick {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  opacity: 1;
+  z-index: 100;
+}
 
