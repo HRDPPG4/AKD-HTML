@@ -1,13 +1,16 @@
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "menu-basic") {
-        x.className += " responsive";
-    } else {
-        x.className = "menu-basic";
-    }
-}
-
+$(document).ready(function(){
+	var menu ='close';
+	$('#myTopnav').click(function(){
+	  if (menu=="close") {
+	  	$('.menu-basic').addClass("responsive");
+	  	menu="open";
+	  }else{
+	  	$('.menu-basic').removeClass("responsive");
+	  	menu="close";
+	  }
+	});
+});
+// ///////////////////////
 $(document).ready(function(){
 	
 	$('ul.tabs li').click(function(){

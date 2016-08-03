@@ -51,5 +51,5 @@ jQuery(document).ready(function($) {
 	// 	 initio_parallax_animation();
 	// });
 
-});
+// });
 

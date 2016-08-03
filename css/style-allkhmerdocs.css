@@ -281,9 +281,11 @@ a .fa-thumbs-up:hover{
  margin:0 0.4em; 
 }
 
-/*all icons*/
-.fa{
-	position: relative;
- left: -7px;
+i.fa-bars{
+  position: relative;
+  top: 13px;
+  font-size: 25px;
+  color: white;
 }
+
 
