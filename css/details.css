@@ -10,6 +10,7 @@
  ​ text-align: center;
 }
 .slide-container{
+  height: 400px;
   font-size: 16px;
   text-align: center;
   border-bottom:1px solid #fff;
@@ -49,4 +50,22 @@
   margin-bottom:5px;
   padding: 10px 5px 10px 10px;
   background-color:  #3B5998;
+}
+/*////////////*/
+.watch-titles{
+  display: block;
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  border: 0 none;
+  margin-bottom: 4px;
+  margin: 0px -7px -3px;
+  padding: 0px 0px 0px;
+  padding-bottom:30px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
 }
