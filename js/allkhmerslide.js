@@ -3,6 +3,7 @@ $(document).ready(function(){
 	$('#myTopnav').click(function(){
 	  if (menu=="close") {
 	  	$('.menu-basic').addClass("responsive");
+	  	
 	  	menu="open";
 	  }else{
 	  	$('.menu-basic').removeClass("responsive");

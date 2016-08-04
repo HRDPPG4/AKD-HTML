@@ -3,10 +3,14 @@
   .main-menu{
   position: relative;
   margin-left: 0;
+
  }
   ul.menu-basic li:not(:first-child) {
     display: none;
   }
+  ul.menu-basic li.active a{
+  border-bottom: 1px dashed #3B5998;
+}
   ul.menu-basic li a{
     border-bottom: 1px dashed #fff;
   }
@@ -14,16 +18,16 @@
     float: right;
     display: inline-block;
   }
-
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
 @media screen and (max-width:680px) {
-
   ul.menu-basic.responsive {position: relative;}
   ul.menu-basic.responsive li.icon {
     position: absolute;
     right: 0;
+    color: black;
+    z-index: -300;
     top: 0;
   }
   ul.menu-basic.responsive li {

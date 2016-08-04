@@ -64,7 +64,7 @@ position: relative;
  /* Float the list items side by side */
  .main-menu{
  	position: relative;
- 	margin-left: 200px;
+ 	margin-left: 170px;
 
  }
 ul.menu-basic li{float: left;}
@@ -81,9 +81,19 @@ ul.menu-basic li a{
 }
 
 /* Change background color of links on hover */
+ul.menu-basic li.active a{
+  background-color:#fff;
+  color:#000;
+  border-right: 1px solid #3B5998;
+}
+ul.menu-basic li.active a:visited{
+  background-color:#fff;
+  color:#000;
+}
 ul.menu-basic li a:hover{
   background-color:#fff;
   color:#424242;
+  border-right: 1px solid #3B5998;
 }
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.menu-basic li.icon {display: none;}
@@ -144,7 +154,7 @@ ul.tabs{
 			background:#3B5998;
 			color: #fff;
 			border-top-left-radius:15px;
-			border-bottom-right-radius:15px; 
+			border-bottom-right-radius:10px; 
 			display: inline-block;
 			padding: 10px 15px;
 			cursor: pointer;
@@ -153,7 +163,7 @@ ul.tabs{
 			background:#eee;
 			color: #000;
 			border-top-left-radius:15px;
-			border-bottom-right-radius:15px; 
+			border-bottom-right-radius:10px; 
 			display: inline-block;
 			padding: 10px 15px;
 			cursor: pointer;
@@ -211,6 +221,70 @@ a.thumbnail{
   text-decoration: none;
 
 }
+.title-cover{
+  position: absolute;
+  right: 30px;
+  width: 100px;
+  color: #000;
+}
+/*.img .cover{
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  width: 100%;
+   height: 100%;
+  line-height: 32px;
+  padding: 0 150px;
+  -webkit-border-radius: 1px 0 0 1px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 1px 0 0 1px;
+  -moz-background-clip: padding;
+  border-radius: 1px 0 0 1px;
+  background-clip: padding-box;
+  font-size: 12px;
+  font-size: 1.20rem;
+  -webkit-transform:translate(-50%,0);
+  -moz-transform:translate(-50%,0);
+  -webkit-transition: all 3s ease;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0px #3B5998;
+  background: #3B5998;
+  color: black;
+}*/
+.img > img{
+  -webkit-transition: all 1s ease;
+}
+.img:hover > img{
+  width: 350px;
+  margin: -40px;
+  -webkit-transition: all 1s ease;
+}
+ /*.img .cover:hover{
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 32px;
+  padding: 0 150px;
+  -webkit-transform:translate(50%,0);
+  -moz-transform:translate(50%,0);
+  -webkit-transition: all 3s ease;
+  -webkit-border-radius: 1px 0 0 1px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 1px 0 0 1px;
+  -moz-background-clip: padding;
+  border-radius: 1px 0 0 1px;
+  background-clip: padding-box;
+  font-size: 12px;
+  font-size: 1.20rem;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0px #fff;
+  background: #fff;
+  color: black;
+}*/
+
+
 
 .thumbnail img {
   width: 100%;
@@ -287,7 +361,7 @@ i.fa-bars{
   font-size: 25px;
   color: white;
 }
-
+/*add class name .stick when scroll down*/
 .navbar.stick {
   position: fixed;
   width: 100%;
@@ -296,4 +370,7 @@ i.fa-bars{
   opacity: 1;
   z-index: 100;
 }
+
+/**/
+
 
