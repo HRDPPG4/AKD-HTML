@@ -102,9 +102,9 @@ ul.menu-basic li.icon {display: none;}
 .topspace-second{
 	margin-top: 20px;
     background-color: #fff;
-  border-left:1px solid #3B5998;
+ /* border-left:1px solid #3B5998;
   border-right:1px solid #3B5998;
-  border-bottom:1px solid #3B5998;
+  border-bottom:1px solid #3B5998;*/
 	padding-bottom: 10px;
 }
 .section-title{
@@ -117,7 +117,6 @@ ul.menu-basic li.icon {display: none;}
   font-size: 16px;
 	line-height: 30px;
   letter-spacing: 1px;
-
 	background-color:#3B5998;
 }
 .topspace-second > .section-title #left-title{
@@ -148,6 +147,7 @@ ul.menu-basic li.icon {display: none;}
 ul.tabs{
 			margin: 0px;
 			padding: 0px;
+       border-bottom: 2px solid #f9c100;
 			list-style: none;
 		}
 		ul.tabs li{
