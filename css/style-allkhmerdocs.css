@@ -102,10 +102,18 @@ ul.menu-basic li.icon {display: none;}
 .topspace-second{
 	margin-top: 20px;
     background-color: #fff;
-    border:1px;
-	border-style: solid;
-	border-color: #3B5998;
+  border-left:1px solid #3B5998;
+  border-right:1px solid #3B5998;
+  border-bottom:1px solid #3B5998;
 	padding-bottom: 10px;
+}
+.topspace-right{
+  margin-top: 20px;
+    background-color: #fff;
+ /* border-left:1px solid #3B5998;
+  border-right:1px solid #3B5998;
+  border-bottom:1px solid #3B5998;*/
+  padding-bottom: 10px;
 }
 .section-title{
 	padding-top:10px;
@@ -198,7 +206,7 @@ ul.tabs{
   margin-bottom: 4px;
   margin: 0px -7px -3px;
   padding: 0px 0px 0px;
-  padding-bottom: 10px;
+  padding-bottom:30px;
   text-align: center;
   text-decoration: none;
   color: #333;
@@ -221,12 +229,12 @@ a.thumbnail{
   text-decoration: none;
 
 }
-.title-cover{
+/*.title-cover{
   position: absolute;
   right: 30px;
   width: 100px;
   color: #000;
-}
+}*/
 /*.img .cover{
   position: absolute;
   right: 0;
@@ -262,7 +270,7 @@ a.thumbnail{
  /*.img .cover:hover{
   position: absolute;
   right: 0;
-  opacity: 0;
+  opacity: 0.8;
   width: 100%;
   height: 100%;
   line-height: 32px;
@@ -282,8 +290,8 @@ a.thumbnail{
   text-shadow: 0 1px 0px #fff;
   background: #fff;
   color: black;
-}*/
-
+}
+*/
 
 
 .thumbnail img {
@@ -296,19 +304,32 @@ a.thumbnail{
 
 .thumbnail .title {
   text-transform: uppercase;
-  margin: 0 2em;
+  margin: 0 1em;
   text-align: left;
+  font-size: 18px;
+  font-weight: 400;
   text-decoration: none;
   margin-top: -1px;
   display: block;
   text-indent: 0;
 }
-.thumbnail .descript{
-   margin: 0 2em;
-   margin-top: 10px;
-   line-height: 30px;
+.thumbnail .user-name{
+   margin: 0 1.1em;
+    text-transform: capitalize;
+   margin-bottom:10px;
+   line-height: 25px;
    text-align: left;
-   font-size: 12px;
+   font-size: 16px;
+   text-decoration: none;
+  display: block;
+  text-indent: 0;
+}
+.thumbnail .descript{
+   margin: 0 1.1em;
+   padding-bottom: 20px;
+   line-height: 25px;
+   text-align: left;
+   font-size: 16px;
    text-decoration: none;
   display: block;
   text-indent: 0;
@@ -323,7 +344,7 @@ a.thumbnail{
 }
 .thumbnail .view-count{
   position: relative;
- top: 7px;
+ top: 25px;
   left: 25px;
   color: #757575;
   float: left;
